@@ -11,7 +11,7 @@ namespace DockerTest
     {
         static void Main(string[] args)
         {
-            var timer = new Timer(CallBackMethod, null, 0, 2000);
+            var timer = new Timer(CallBackMethod, null, 0, 200);
 
             Console.Read();
         }
