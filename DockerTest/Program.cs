@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
+//new line
 namespace DockerTest
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var timer = new Timer(CallBackMethod, null, 0, 2000);
+            var timer = new Timer(CallBackMethod, null, 0, 200);
 
             Console.Read();
         }
